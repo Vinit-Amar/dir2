@@ -2,7 +2,7 @@
 echo "Enter a character to check vowel or not "
 read char
 case $char in
-    [aeiou])
+    [aeiouAEIOU])
         echo "It is a lowercase vowel"
         ;;
     *)
